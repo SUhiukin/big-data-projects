@@ -1,0 +1,12 @@
+#周五截图1
+#print('pls input a num:')
+#a = int(input())
+#def fun1():
+#    
+#    print('千位数是:',(a//1000)%10)
+#    print('百位数是:',(a//100)%10)
+#    print('十位数是:',(a//10)%10)
+#    print('个位数是:',(a//1)%10)
+#    return 'finish'    
+#    
+#print(fun1())
