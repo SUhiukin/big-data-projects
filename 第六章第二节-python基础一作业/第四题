@@ -1,0 +1,9 @@
+print("第四题")
+ 
+
+for i in range(10):
+    j = 1
+    while j <=9:
+        print("{0}*{1}={2}".format(i,j,i*j))
+        j = j+1
+    continue
