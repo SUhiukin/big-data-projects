@@ -1,0 +1,11 @@
+#周五截图2
+
+print('pls input a num:')
+a = int(input())
+sum = 0
+for i in range(0,a+1):
+    if (i % 2) != 0:
+        print('i = ',i)
+        sum += i
+
+print('sum = ',sum)
