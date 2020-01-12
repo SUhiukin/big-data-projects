@@ -1,0 +1,12 @@
+print("第二题")
+
+for i in range(3):
+    print("请输入账号：")
+    a = input()
+    print("请输入密码：")
+    b = input()
+    if (a == 'seven' and b == '123'):
+        print("登录成功！")
+        break
+    else:
+        print("登录失败！重新输入！")
