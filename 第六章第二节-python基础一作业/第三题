@@ -1,0 +1,6 @@
+print("第三题")
+
+sum = 0
+for i in range(99):
+    sum += ((-1)**(i)) * (i+1)
+print(sum)
