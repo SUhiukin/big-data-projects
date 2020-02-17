@@ -1,0 +1,36 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sun Oct 20 10:22:07 2019
+
+@author: Administrator
+"""
+ 
+
+
+import matplotlib.pyplot as plt
+from matplotlib import font_manager
+
+
+
+labels = ['日','了','狗','Dogs']
+sizes = [10,15,30,45]
+explode = (0,0,0.1,0)
+plt.axis('equal')
+colors = ['r','b','orange','g']  #自定义颜色列表
+
+my_font = font_manager.FontProperties(fname = 'C:\Windows\Fonts\msyh.ttc')
+
+
+p = plt.pie(sizes,explode=explode,labels=labels,autopct='%1.1f%%',shadow=True,
+        startangle=30,colors=colors)
+        
+plt.title("饼图示例-8月份家庭支出",fontproperties = my_font)
+
+#将每一块饼图拿出来
+for front in p[1]:
+    front.set_fontproperties(my_font)        
+
+#a.set_fontproperties(my_font)
+
+plt.show()  
+
