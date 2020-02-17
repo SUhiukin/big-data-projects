@@ -1,0 +1,37 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sun Feb  9 22:46:05 2020
+
+@author: Administrator
+"""
+
+
+ 
+import matplotlib.pyplot as plt
+
+x= range(1,8)
+
+y = range(1,8)
+
+plt.plot(x,y,color = 'red',alpha = 0.5,
+         linewidth = 3,linestyle = "--",
+         marker = 'o',markersize = 20)
+         
+#plt.figure(figsize=(20,8),dpi=80)
+
+t = range(1,8,2)
+plt.xticks(t)
+
+#xticks函数的参数：
+#1，疏密程度，2 每个刻度叫什么List保存
+
+plt.show()
+
+
+
+
+
+
+
+
+
